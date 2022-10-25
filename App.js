@@ -12,8 +12,9 @@ export default function App() {
       <StatusBar style="auto" />
       <View className="w-full h-[750px] bg-orange-100 mb-40 rounded-bl-full">
         <Image source={require('./assets/bonsai.png')}/>
-        <View className="flex flex-row gap-6 ml-64">
-            <Icon name="hearto" size={30}/>
+        <View className="flex flex-row gap-6 ml-60">
+          <Text className="font-bold text-xl">Qtd: {count}</Text>
+          <Icon name="hearto" size={30}/>
         </View>
         <View className="items-center mt-16">
           <Text className="text-xl text-black font-bold">Bonsai de palmeira</Text>
